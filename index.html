@@ -59,7 +59,7 @@
         <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
-                        <button typle="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <button typle="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -67,11 +67,12 @@
                         </button>
                        <a class="navbar-brand" href="#">动漫导航</a>
                     </div>
+                    <div class="collapse navbar-collapse" id="demo-navbar">
                         <ul class="nav navbar-nav">
                             <li><a href="#" data-toggle="dropdown">国漫<span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">狐妖小红娘</a></li>
+                                <li><a href="#tab-id1">狐妖小红娘</a></li>
                                 <li><a href="#">十万个冷笑话</a></li>
                                 <li><a href="#">一人之下</a></li>
                                 <li class="divider"></li>
@@ -83,9 +84,9 @@
                        <span class="caret"></span>
                     </a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">名侦探柯南</a></li>
+                                <li><a href="#tab-id5">名侦探柯南</a></li>
                                 <li><a href="#">海贼王</a></li>
-                                <li><a href="#">妖精尾巴</a></li>
+                                <li><a href="#tab-id4">妖精尾巴</a></li>
                                 <li class="divider"></li>
                                 <li><a href="#">其他</a></li>
                             </ul>
@@ -100,6 +101,7 @@
                                 <li><a href="#">其他</a></li>
                             </ul>
                         </li>
+                    </div>
                         <li><a href="#" data-toggle="modal" data-target="#about">关于</a></li>
                 </div>
             </nav>
@@ -185,7 +187,7 @@
 
                     <hr class="divider">
         
-                    <ul class="nav nav-tabs" role="tablist">
+                    <ul class="nav nav-tabs" role="tablist" id="tab-list">
                         <li class="active"><a href="#tab-id1" role="tab" data-toggle="tab">狐妖小红娘</a></li>
                         <li><a href="#tab-id2" role="tab" data-toggle="tab">犬夜叉</a></li>
                         <li><a href="#tab-id3" role="tab" data-toggle="tab">海贼王</a></li>
@@ -194,7 +196,7 @@
                     </ul>
             
                     <div class="tab-content">
-                        <div class="tab-pane active" id="tab-id1">
+                        <div class="tab-pane active">
                             <div class="row feature">
                             <div class="col-md-7">
                                 <h2 class="feature-heading">狐妖小红娘<span class="text-muted">完结</span></h2>
