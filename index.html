@@ -283,5 +283,14 @@
 
             <script src="js/jquery-3.2.1.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
+            <script>
+            $(document).ready(function(){
+                $("#demo-navbar .dropdowm-menu a").click(function(){
+                    var href = $(this).attr("href");
+
+                    $("#tab-list a[href='" + href + "']").tab("show");
+                });
+            });
+            </script>
 </body>
 </html>
